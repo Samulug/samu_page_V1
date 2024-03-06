@@ -1,0 +1,4 @@
+.app-back{
+    background: linear-gradient(to bottom, #f0f0f0, #333); 
+    min-height: 100vh;
+}

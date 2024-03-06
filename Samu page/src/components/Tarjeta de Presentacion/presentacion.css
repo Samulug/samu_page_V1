@@ -1,0 +1,101 @@
+section{
+   display: flex;
+   flex-direction: column;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card-present{
+    margin: 0;
+    padding: 0;
+}
+
+.card-tittle{
+    margin: 10px 0 0 0;
+    padding: 0;
+    align-self: flex-start;
+}
+
+.card-parraf{
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.card-tec{
+    margin: 5px;
+    padding: 0;
+    color: black;
+    text-align:justify;
+    word-wrap: break-word;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    margin: 30px;
+}
+
+.card-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.card:hover .container {
+    transform: rotateY(180deg);
+}
+
+
+.cardface {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    display: flex;
+}
+
+
+.card-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.front-face{
+    transform: rotateY(0deg);
+}
+
+.back-face{
+    display: flex;
+    transform: rotateY(180deg);
+}
+
+.icons{
+    margin: 0px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+}
+
+

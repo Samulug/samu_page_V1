@@ -1,7 +1,7 @@
 .b-nav-header{
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.075);
+    background-color :linear-gradient(to bottom);
     border-radius: 10px;
     justify-content: space-between;
 }
@@ -13,6 +13,10 @@
     margin-right: 20px;
     padding: 10px;
     display: inline-block;
+}
+
+.name{
+font-size: 300%;
 }
 
 .bot-nav-li {
