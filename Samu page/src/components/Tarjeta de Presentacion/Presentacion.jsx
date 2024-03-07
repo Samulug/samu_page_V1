@@ -1,11 +1,10 @@
 import './presentacion.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faHtml5,faCss3Alt,faJs,faReact,faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faHtml5,faCss3Alt,faJs,faReact,faLinkedin,faGit } from '@fortawesome/free-brands-svg-icons';
 
 
 export function TarjetaDePresentacion () {
     return(
-       <section>
             <div className="card">
                 <div className="container">
                         <div className="cardface front-face">
@@ -13,35 +12,38 @@ export function TarjetaDePresentacion () {
                         </div>
                     <div className="cardface back-face">
                         <div className='card-info'>
-                               <h2 className="card-tittle">Un poco sobre Samu:</h2>
-                                <p className="card-parraf">Programador Junior Web muy aparcionado por las tecnologias nuevas, facil adaptación, buen trabajo en equipo y con ganas de aprender cada dia mas.</p>
-                                <p className="card-tec">Orientado en Tecnologias como:</p>
+                               <h2 className="card-tittle">Un poco sobre Mi:</h2>
+                                <p className="card-parraf">Soy Programador Web Junior muy activo, me adapto facil, tengo buena comunicacción, se trabajar en equipo y me gusta aprender cada dia mas.</p>
+                                <p className="card-tec">Trabajo con Tecnologias como:</p>
                                 <div className='icons'>
                                     <i>
-                                        <FontAwesomeIcon icon={faHtml5} />
+                                        <FontAwesomeIcon icon={faHtml5} style={{color:'#f06529'}} />
                                     </i>
                                     <i>
-                                        <FontAwesomeIcon icon={faCss3Alt} />
+                                        <FontAwesomeIcon icon={faCss3Alt} style={{color:'#2965f1'}} />
                                     </i>
                                     <i>
-                                        <FontAwesomeIcon icon={faJs} />
+                                        <FontAwesomeIcon icon={faJs} style={{color:'#F0DB4F'}}/>
                                     </i>  
                                     <i>
-                                        <FontAwesomeIcon icon={faReact} />    
+                                        <FontAwesomeIcon icon={faReact} style={{color:'#61DBFB'}}/>    
+                                    </i>
+                                    <i>
+                                        <FontAwesomeIcon icon={faGit} style={{color:'black'}} />
                                     </i>
                                 </div>
                                 <div className='icons'>
+                                    <p className="icons-text">Y tambien tengo:</p>
                                     <a  href='https://github.com/Samulug?tab=repositories'>
-                                        <FontAwesomeIcon icon={faGithub} />
+                                        <FontAwesomeIcon icon={faGithub} style={{color:'#24292e'}}/>
                                     </a>
                                     <a  href="https://www.linkedin.com/in/samuelrodriguezparodi/">
-                                        <FontAwesomeIcon icon={faLinkedin} />
+                                        <FontAwesomeIcon icon={faLinkedin} style={{color:'#0e76a8'}}/>
                                     </a>
                                 </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
     )
 }

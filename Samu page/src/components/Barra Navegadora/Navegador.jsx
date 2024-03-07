@@ -7,14 +7,14 @@ export function BarraNavegadora () {
             <nav className="b_elements">
                 <ul className="bot-nav-ul">
                     <li className="bot-nav-li">
-                        <a href="" className='bot-nav-a'>
-                            "Mas sobre Mi"
+                        <a href="https://drive.google.com/file/d/1b7167PfsdEIRzOkpR4bKSPe4ji-siSko/view" className='bot-nav-a'>
+                            Curriculum
                         </a>
                     </li>
                 </ul>
                 <ul className='bot-nav-ul'>
                     <li className="bot-nav-li">
-                        <a href="" className='bot-nav-a'>"Algo mas"</a>
+                        <a href="" className='bot-nav-a'>Reseña de Perfil</a>
                     </li>
                 </ul>
             </nav>
