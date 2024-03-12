@@ -1,0 +1,14 @@
+{
+    "imgs": [
+      { "id": 1, "img": "https://github.com/Samulug/org/blob/master/org.png?raw=true" },
+      { "id": "2", "img": ""}
+    ],
+    "tittles": [
+      { "id": "1", "text": "Pagnina de Organizacion Empresarial", "postId": "1" },
+      { "id": "2", "text": "Pagina de Formulario", "postId": "1" }
+    ],
+    "info": [
+      {"id":"1", "text":"Esta pagina permite crear y agregar personas a distintos equipos de una empresa"},
+      {"id":"2", "text":"Esta pagina se enfoca en distintas validaciones para formularios"}
+    ]
+  }
