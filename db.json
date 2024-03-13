@@ -1,8 +1,8 @@
 {
     "imgs": [
-      { "id": 1, "img": "https://github.com/Samulug/samu_page_V1/blob/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/org.png" },
-      { "id": 2, "img": "https://github.com/Samulug/samu_page_V1/blob/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Smart-Bank.png"},
-      {"id": 3 , "img" : "https://github.com/Samulug/samu_page_V1/blob/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Codificador.png"}
+      { "id": 1, "img": "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/org.png" },
+      { "id": 2, "img": "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Smart-Bank.png"},
+      {"id": 3 , "img" : "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Codificador.png"}
     ],
     "tittles": [
       { "id": 1, "title": "Pagnina de Organizacion Empresarial"},
