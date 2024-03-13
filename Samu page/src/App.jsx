@@ -6,15 +6,14 @@ import { BloqueDeContenido } from "./components/Bloque de Contenido/BloqueDeCont
 import { useEffect , useState } from "react";
 
 export function App () {
-
-    const [imageUrls, setImageUrls] = useState([]);
+    const [data, setData] = useState({ imgs: [], tittles: [], info: [] , direcciones: [], });
 
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch(`https://my-json-server.typicode.com/Samulug/samu_page_V1/imgs`);
-                const data = await response.json();
-                setImageUrls(data.map(item => item.img));
+                const response = await fetch(`https://my-json-server.typicode.com/Samulug/samu_page_V1/db`);
+                const jsonData = await response.json();
+                setData(jsonData);
             } catch (error) {
                 console.error("Error al obtener los datos:", error);
             }
@@ -31,8 +30,14 @@ export function App () {
                 <div className="contenedor-principal">
                     <TarjetaDePresentacion  />
                     <div className="contenedor-bloq">
-                        {imageUrls.map((imageUrl, index) => (
-                            <BloqueDeContenido key={index} imageUrl={imageUrl} />
+                        {data.imgs.map((img, index) => (
+                            <BloqueDeContenido 
+                                key={index} 
+                                imageUrl={img.img}
+                                title={data.tittles[index].title}
+                                text={data.info[index].text}
+                                redirec={data.direcciones[index].url}
+                            />
                         ))}
                     </div>
                 </div>
