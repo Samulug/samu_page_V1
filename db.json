@@ -13,5 +13,15 @@
       {"id": 1, "text":"Esta pagina permite crear y agregar personas a distintos equipos de una empresa"},
       {"id": 2, "text":"Esta pagina se enfoca en el uso de styled components"},
       {"id": 3, "text" : "Esta pagina permite codificar texto"}
+    ],
+    "direcciones":[
+      {"id":1, "url":"https://org-mocha-psi.vercel.app/"},
+      {"id":2, "url":"https://smart-bank-ashen.vercel.app/"},
+      {"id":3, "url":"Samulug.github.io"}
+    ],
+    "tecnologias":[
+      {"id":1, "tec":"React"},
+      {"id":2, "tec":"React-Router-Dom"},
+      {"id":3, "tec":"Styled-Components"}
     ]
   }
