@@ -13,6 +13,7 @@ export function BloqueDeContenido ({imageUrl, title, text, redirec}) {
                             <a href={redirec}>
                                 <button className='boton-bloq'>Visitar Pagina</button>
                             </a>
+                            <div className='bloque-back'></div>
                         </div>
                     </div>
                 </div>

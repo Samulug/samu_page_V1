@@ -13,6 +13,19 @@
     border-radius: 30px;
     
 }
+
+.bloque-back{
+    position: absolute;
+    width: 15em;
+    height: 13em;
+    background-color: rgba(30, 31, 38, 0.575);
+    border-radius: 7px;
+    margin-top: -5em;
+    margin-left: 0.7em;
+    transition: .2s ease-in-out;
+    z-index: -1;
+}
+
 .container-bloq{
     padding: 10px;
 }
