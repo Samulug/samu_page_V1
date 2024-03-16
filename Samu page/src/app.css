@@ -13,7 +13,7 @@ section{
 
 
 .app-back{
-    background: linear-gradient(to bottom, #DDA448, #A63D40); 
+    background-image: linear-gradient(144deg,#616262, #cac8d2 50%,#141315);  
     min-height: 100vh;
 }
 
@@ -21,10 +21,55 @@ section{
     margin-bottom: 20px; /* Agrega espacio entre los componentes */
 }
 
+.title-port{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    text-decoration:underline ;
+    top: 100px;
+    right: 30.5%;
+    font-size: 35px;
+    margin: 1px;
+    padding: 5px;
+
+}
+
 .contenedor-bloq{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     gap: 10px;
-    width: 900px;
+    width: 865px;
 }
+
+.next-port {
+    position: absolute;
+    right: 22px;
+    top: 50%;
+    background-color: #ffffff00;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border: #3654ff 0.2em solid;
+    border-radius: 100%;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .next-port:hover {
+    background-color: #3654ff;
+    cursor: pointer;
+  }
+  
+  .next-port svg {
+    width: 1.6em;
+    margin: -10px 5px;
+    position: absolute;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .next-port:hover svg {
+    transform: translateX(5px);
+  }
+  
+  

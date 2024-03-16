@@ -4,6 +4,7 @@
     background-color :linear-gradient(to bottom);
     border-radius: 10px;
     justify-content: space-between;
+    margin: 0px 5px 5px;
 }
 
 .bot-nav-ul, .name {
