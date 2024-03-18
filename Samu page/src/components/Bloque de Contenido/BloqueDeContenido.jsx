@@ -13,7 +13,7 @@ export function BloqueDeContenido({ imageUrl, title, text, redirec }) {
               <div className="container-a">
               <a className="a-boton-bloq" href={redirec}>
                 <button className="boton-bloq">
-                  <span class="span-mother">
+                  <span className="span-mother">
                     <span>V</span>
                     <span>i</span>
                     <span>s</span>
@@ -22,7 +22,7 @@ export function BloqueDeContenido({ imageUrl, title, text, redirec }) {
                     <span>a</span>
                     <span>r</span>
                   </span>
-                  <span class="span-mother2">
+                  <span className="span-mother2">
                     <span>V</span>
                     <span>i</span>
                     <span>s</span>

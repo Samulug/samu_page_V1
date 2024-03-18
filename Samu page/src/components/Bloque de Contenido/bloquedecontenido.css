@@ -52,7 +52,7 @@
     overflow: hidden;
     text-overflow: '... (más)';
     max-width: 100%;
-    word-wrap: break-word; /* Divide palabras largas */
+    word-wrap: break-word; 
 }
 
 .techs{
@@ -66,12 +66,30 @@
  margin: 70% auto 0;
  border-radius: 45px;
  transform: translateY(0%);
- background-color: #d00;
+ background-color: #DFE3F5;
  transition: all .3s cubic-bezier(0.77, 0, 0.175, 1);
+ z-index: -1;
+}
+.bloque:nth-child(n+4):nth-child(-n+6) .techs {
+  position: absolute;
+  display: flex;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  max-width: 75%;
+  max-height: 30%;
+  border-radius: 45px;
+  transform: translateY(0%);
+  background-color: #000;
+  transition: all .3s cubic-bezier(0.77, 0, 0.175, 1);
   z-index: -1;
 }
+
+.bloque:nth-child(n+4):nth-child(-n+6):hover .techs {
+  transform: translateY(-105%);
+}
  .bloque:hover .techs {
-  transform: translateY(100%);
+  transform: translateY(105%);
 }
 .container-a{
   width: 250px;

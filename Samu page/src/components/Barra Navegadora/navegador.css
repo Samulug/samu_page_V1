@@ -4,11 +4,15 @@
     background-color :linear-gradient(to bottom);
     border-radius: 10px;
     justify-content: space-between;
-    margin: 0px 5px 5px;
+    margin: -45px 5px 5px;
+    position: relative;
+    top: 6px;
+
 }
 
 .bot-nav-ul, .name {
-    font-family:"Kode Mono", monospace;;
+    font-family:"Voltaire", sans-serif;
+    text-decoration: underline;
     color: rgb(3, 3, 3) ;
     list-style:none;
     margin-right: 20px;
@@ -18,6 +22,8 @@
 
 .name{
 font-size: 300%;
+margin-left: 45px;
+font-style: normal;
 }
 
 .bot-nav-li {

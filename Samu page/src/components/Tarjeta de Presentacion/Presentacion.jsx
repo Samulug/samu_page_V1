@@ -13,7 +13,7 @@ export function TarjetaDePresentacion () {
                     <div className="cardface back-face">
                         <div className='card-info'>
                                <h2 className="card-tittle">Un poco sobre Mi:</h2>
-                                <p className="card-parraf">Soy Programador Web Junior muy activo, me adapto facil, tengo buena comunicacción, se trabajar en equipo y me gusta aprender cada dia mas.</p>
+                                <p className="card-parraf">Soy Programador Web Junior muy activo, me adapto facil, tengo buena comunicación, se trabajar en equipo y me gusta aprender cada dia más.</p>
                                 <p className="card-tec">Trabajo con Tecnologias como:</p>
                                 <div className='icons'>
                                     <i>

@@ -7,27 +7,35 @@ section{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- }
+    font-family: system-ui, sans-serif;
+   }
 
 
 
 .app-back{
     background-image: linear-gradient(144deg,#616262, #cac8d2 50%,#141315);  
-    min-height: 100vh;
+    min-height: 107vh;
 }
 
 .componente-container {
-    margin-bottom: 20px; /* Agrega espacio entre los componentes */
+    margin-bottom: 20px; 
+}
+
+.img-fleshita{
+  position: absolute;
+  top: 65px;
+  left: 170px;
+  rotate: 230grad;
+  transform: scale(1.2);
 }
 
 .title-port{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: absolute;
+  font-family:"Voltaire", sans-serif;
+  position: absolute;
     text-decoration:underline ;
-    top: 100px;
+    top: 45px;
     right: 30.5%;
-    font-size: 35px;
+    font-size: 50px;
     margin: 1px;
     padding: 5px;
 
@@ -37,7 +45,7 @@ section{
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 34px  10px;
     width: 865px;
 }
 
