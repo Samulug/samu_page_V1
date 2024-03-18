@@ -42,5 +42,3 @@ export function BloqueDeContenido({ imageUrl, title, text, redirec }) {
     </>
   );
 }
-//Busque en mis repositorios de github:
-//nombre , descrippcion, el link y ver como hacer una preview
