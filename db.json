@@ -2,22 +2,29 @@
     "imgs": [
       { "id": 1, "img": "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/org.png" },
       { "id": 2, "img": "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Smart-Bank.png"},
-      {"id": 3 , "img" : "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Codificador.png"}
+      {"id": 3 , "img" : "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Codificador.png"},
+        {"id": 4 , "img" : "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Codificador.png"}
     ],
     "tittles": [
       { "id": 1, "title": "Organizacion Empresarial"},
       { "id": 2, "title": "Smart-Bank"},
-      {"id": 3 , "title" : "Codificador de texto"}
+      {"id": 3 , "title" : "Codificador de texto"},
+     {"id": 4 , "title" : "Codificador de texto"}
+
     ],
     "info": [
       {"id": 1, "text":"Tiene distintas funcionalidades como la creación de equipos y la organización de los mismos."},
       {"id": 2, "text":"Simulación de pagina de banco con funcionalidades como cambio de tema."},
-      {"id": 3, "text" : "Esta pagina permite codificar texto como tambien decodificarlo"}
+      {"id": 3, "text" : "Esta pagina permite codificar texto como tambien decodificarlo"},
+    {"id": 4, "text" : "Esta pagina permite codificar texto como tambien decodificarlo"}
+
     ],
     "direcciones":[
       {"id":1, "url":"https://org-mocha-psi.vercel.app/"},
       {"id":2, "url":"https://smart-bank-ashen.vercel.app/"},
-      {"id":3, "url":"https://Samulug.github.io"}
+      {"id":3, "url":"https://Samulug.github.io"},
+     {"id":4, "url":"https://Samulug.github.io"}
+
     ],
     "tecnologias":[
       {"id":1, "tec":"HTML, CSS, JavaScript, React"},
