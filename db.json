@@ -5,14 +5,14 @@
       {"id": 3 , "img" : "https://raw.githubusercontent.com/Samulug/samu_page_V1/main/Samu%20page/src/components/Bloque%20de%20Contenido/img/Codificador.png"}
     ],
     "tittles": [
-      { "id": 1, "title": "Pagnina de Organizacion Empresarial"},
-      { "id": 2, "title": "Pagina de Banco"},
-      {"id": 3 , "title" : "Pagina de Codificador"}
+      { "id": 1, "title": "Organizacion Empresarial"},
+      { "id": 2, "title": "Smart-Bank"},
+      {"id": 3 , "title" : "Codificador de texto"}
     ],
     "info": [
-      {"id": 1, "text":"Esta pagina permite crear y agregar personas a distintos equipos de una empresa"},
-      {"id": 2, "text":"Esta pagina se enfoca en el uso de styled components"},
-      {"id": 3, "text" : "Esta pagina permite codificar texto"}
+      {"id": 1, "text":"Tiene distintas funcionalidades como la creación de equipos y la organización de los mismos."},
+      {"id": 2, "text":"Simulación de pagina de banco con funcionalidades como cambio de tema."},
+      {"id": 3, "text" : "Esta pagina permite codificar texto como tambien decodificarlo"}
     ],
     "direcciones":[
       {"id":1, "url":"https://org-mocha-psi.vercel.app/"},
@@ -20,8 +20,8 @@
       {"id":3, "url":"https://Samulug.github.io"}
     ],
     "tecnologias":[
-      {"id":1, "tec":"React"},
-      {"id":2, "tec":"React-Router-Dom"},
-      {"id":3, "tec":"Styled-Components"}
+      {"id":1, "tec":"HTML, CSS, JavaScript, React"},
+      {"id":2, "tec":"HTML, CSS, JavaScript, React"},
+      {"id":3, "tec":"HTML, CSS, JavaScript"}
     ]
   }
