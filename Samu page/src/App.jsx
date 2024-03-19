@@ -39,7 +39,7 @@ export function App() {
       <section>
         <div className="contenedor-principal">
           <TarjetaDePresentacion />
-          <h1 className="title-port">PortFolio</h1>
+          <h1 className="title-port">Mi PortFolio:</h1>
           <div className="contenedor-bloq">
             {data.imgs.slice(0, 6).map((img, index) => (
               <BloqueDeContenido
