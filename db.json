@@ -26,9 +26,9 @@
      {"id":4, "url":"https://Samulug.github.io"}
 
     ],
-    "tecnologias":[
-      {"id":1, "tec":"HTML, CSS, JavaScript, React"},
-      {"id":2, "tec":"HTML, CSS, JavaScript, React"},
-      {"id":3, "tec":"HTML, CSS, JavaScript"}
-    ]
+  "tecnologias": [
+    {"id": 1, "tec": ["faHtml5", "faCss3", "faJs", "faReact"]},
+    {"id": 2, "tec": ["faHtml5", "faCss3", "faJs", "faReact"]},
+    {"id": 3, "tec": ["faHtml5", "faCss3", "faJs"]}
+]
   }
