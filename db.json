@@ -17,8 +17,7 @@
     "direcciones":[
       {"id":1, "url":"https://org-mocha-psi.vercel.app/"},
       {"id":2, "url":"https://smart-bank-ashen.vercel.app/"},
-      {"id":3, "url":"https://Samulug.github.io"},
-
+      {"id":3, "url":"https://Samulug.github.io"}
     ],
     "tecnologias": [
     {
