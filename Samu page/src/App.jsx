@@ -12,6 +12,7 @@ export function App() {
     tittles: [],
     info: [],
     direcciones: [],
+    tecnologias: [],
   });
 
   useEffect(() => {
@@ -30,6 +31,7 @@ export function App() {
     fetchData();
   }, []);
 
+
   return (
     <div className="app-back">
       <BarraNavegadora />
@@ -41,15 +43,19 @@ export function App() {
           <TarjetaDePresentacion />
           <h1 className="title-port">Mi PortFolio:</h1>
           <div className="contenedor-bloq">
-            {data.imgs.slice(0, 6).map((img, index) => (
-              <BloqueDeContenido
-                key={index}
-                imageUrl={img.img}
-                title={data.tittles[index].title}
-                text={data.info[index].text}
-                redirec={data.direcciones[index].url}
-              />
-            ))}
+            {data.imgs.slice(0, 6).map((img, index) => {
+              const tecnologiasArray = data.tecnologias[index]?.tec || [];
+              return (
+                <BloqueDeContenido
+                  key={index}
+                  imageUrl={img.img}
+                  title={data.tittles[index].title}
+                  text={data.info[index].text}
+                  redirec={data.direcciones[index]?.url}
+                  tecnologias={tecnologiasArray}
+                />
+              );
+            })}
           </div>
         </div>
         <EmailImput />

@@ -2,19 +2,27 @@
   display: flex;
   align-items: center;
   position: absolute;
-  left: 65px;
-  bottom: 50px;
+  left: 35px;
+  bottom: 60px;
+}
+
+.title-imput{
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .input {
   min-height: 50px;
-  max-width: 150px;
+  width: 235px;
   padding: 0 1rem;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   border: 1px solid #616262;
   border-radius: 6px 0 0 6px;
   background-color: transparent;
+  transition: width 0.3s; /* Agregar transición para suavizar el cambio de tamaño */
+
 }
 
 .button--submit {
@@ -37,4 +45,36 @@
 .input:focus, .input:focus-visible {
   border-color: #000;
   outline: none;
+}
+
+.input:valid {
+  width: calc(8px * var(--input-length)); /* Ajusta el ancho del input según la longitud del texto */
+  /* Establece un ancho máximo para evitar que se haga demasiado grande */
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 120px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.button--submit:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+.button--submit:active .tooltip {
+  visibility: visible;
+  opacity: 1;
 }

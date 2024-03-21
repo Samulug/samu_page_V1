@@ -1,7 +1,13 @@
 import "../Bloque de Contenido/bloquedecontenido.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faHtml5, faCss3Alt, faJs, faReact } from "@fortawesome/free-brands-svg-icons";
+import { ComponenteBloqueDeContenido } from  './Tecnologias/ComponenteTech';
+import { TecnologiasContext } from  './Tecnologias/tecologiasContext.js';
 
-export function BloqueDeContenido({ imageUrl, title, text, redirec }) {
-  return (
+
+export function BloqueDeContenido({ imageUrl, title, text, redirec, tecnologias }) {
+ 
+  return (  
     <>
       <div className="bloque-back">
         <div className="bloque">
@@ -36,7 +42,9 @@ export function BloqueDeContenido({ imageUrl, title, text, redirec }) {
               </div>
             </div>
           </div>
-          <div className="techs"></div>
+          <TecnologiasContext>
+            <ComponenteBloqueDeContenido tecnologias={tecnologias}/>
+         </TecnologiasContext>
         </div>
       </div>
     </>
