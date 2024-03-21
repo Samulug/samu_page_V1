@@ -10,7 +10,7 @@
     {"id": 3 , "title" : "Codificador de texto"}
   ],
   "info": [
-    {"id": 1, "text":"Tiene distintas funcionalidades como la creación de equipos y la organización de los mismos."},
+    {"id": 1, "text":"Contiene distintas funcionalidades como la creación de equipos y la organización de los mismos."},
     {"id": 2, "text":"Simulación de pagina de banco con funcionalidades como cambio de tema."},
     {"id": 3, "text" : "Esta pagina permite codificar texto como tambien decodificarlo"}
   ],
