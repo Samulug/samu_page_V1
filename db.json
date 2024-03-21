@@ -26,9 +26,27 @@
      {"id":4, "url":"https://Samulug.github.io"}
 
     ],
-    "tecnologias":[
-      {"id":1, "tec":"HTML, CSS, JavaScript, React"},
-      {"id":2, "tec":"HTML, CSS, JavaScript, React"},
-      {"id":3, "tec":"HTML, CSS, JavaScript"}
+    "tecnologias": [
+    {
+      "id": 1,
+      "tec": [
+        { "icon": "faHtml5", "name": "HTML" },
+        { "icon": "faCss3Alt", "name": "CSS" },
+        { "icon": "faJs", "name": "JavaScript" },
+        { "icon": "faReact", "name": "React" }
+      ]
+    },
+    {"id":2, "tec":[
+      { "icon": "faHtml5", "name": "HTML" },
+      { "icon": "faCss3Alt", "name": "CSS" },
+      { "icon": "faJs", "name": "JavaScript" },
+      { "icon": "faReact", "name": "React" }
     ]
+  },
+    {"id":3, "tec":[       
+    { "icon": "faHtml5", "name": "HTML" },
+    { "icon": "faCss3Alt", "name": "CSS" },
+    { "icon": "faJs", "name": "JavaScript" }]
   }
+  ]
+}
