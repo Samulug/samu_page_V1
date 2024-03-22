@@ -43,24 +43,21 @@ export function App() {
           <TarjetaDePresentacion />
           <h1 className="title-port">Mi PortFolio:</h1>
           <div className="contenedor-bloq">
-            {data.imgs.slice(0, 6).map((img, index) => {
-              const tecnologiasArray = data.tecnologias[index]?.tec || [];
-              return (
+            {data.imgs.map((img, index) => (
                 <BloqueDeContenido
                   key={index}
                   imageUrl={img.img}
                   title={data.tittles[index].title}
                   text={data.info[index].text}
                   redirec={data.direcciones[index]?.url}
-                  tecnologias={tecnologiasArray}
+                  tecnologias={data.tecnologias[index]?.tec}
                 />
-              );
-            })}
+            ))}
           </div>
         </div>
         <EmailImput />
       </section>
-      {data.imgs.length >= 3   && (
+      {data.imgs.length >= 6   && (
                 <button className="next-port">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                         <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>

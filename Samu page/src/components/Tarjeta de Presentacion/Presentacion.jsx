@@ -29,13 +29,13 @@ export function TarjetaDePresentacion () {
                                         <FontAwesomeIcon icon={faReact} style={{color:'#61DBFB'}}/>    
                                     </i>
                                     <i>
-                                        <FontAwesomeIcon icon={faGit} style={{color:'black'}} />
+                                        <FontAwesomeIcon icon={faGit} style={{color:'white'}} />
                                     </i>
                                 </div>
                                 <div className='icons'>
                                     <p className="icons-text">Y tambien tengo:</p>
                                     <a  href='https://github.com/Samulug?tab=repositories'>
-                                        <FontAwesomeIcon icon={faGithub} style={{color:'#24292e'}}/>
+                                        <FontAwesomeIcon icon={faGithub} style={{color:'#fff'}}/>
                                     </a>
                                     <a  href="https://www.linkedin.com/in/samuelrodriguezparodi/">
                                         <FontAwesomeIcon icon={faLinkedin} style={{color:'#0e76a8'}}/>

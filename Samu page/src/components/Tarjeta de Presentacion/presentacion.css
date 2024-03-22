@@ -7,12 +7,14 @@
     margin: 8px 0 0 0;
     padding: 0;
     align-self: initial;
+    color: rgb(236, 233, 233);
+
 }
 
 .card-parraf{
     margin: 0;
     padding: 0;
-    color: black;
+    color: rgb(236, 233, 233);
     text-align: center;
     word-wrap: break-word;
 }
@@ -20,7 +22,7 @@
 .card-tec{
     margin: 5px;
     padding: 0;
-    color: black;
+    color: rgb(236, 233, 233);
     text-align:justify;
     word-wrap: break-word;
 }
@@ -77,6 +79,8 @@
     padding: 20px;
     height: 100%;
     overflow: hidden;
+    color: rgb(236, 233, 233);
+
 }
 
 .front-face{
