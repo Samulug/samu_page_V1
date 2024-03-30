@@ -90,6 +90,7 @@
 .back-face{
     display: flex;
     transform: rotateY(180deg);
+    background-color: #6c7591;
 }
 
 .icons{

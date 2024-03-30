@@ -20,7 +20,7 @@ export function TarjetaDePresentacion () {
                                         <FontAwesomeIcon icon={faHtml5} style={{color:'#f06529'}} />
                                     </i>
                                     <i>
-                                        <FontAwesomeIcon icon={faCss3Alt} style={{color:'#2965f1'}} />
+                                        <FontAwesomeIcon icon={faCss3Alt} style={{color:'#6386d7'}} />
                                     </i>
                                     <i>
                                         <FontAwesomeIcon icon={faJs} style={{color:'#F0DB4F'}}/>
@@ -38,7 +38,7 @@ export function TarjetaDePresentacion () {
                                         <FontAwesomeIcon icon={faGithub} style={{color:'#fff'}}/>
                                     </a>
                                     <a  href="https://www.linkedin.com/in/samuelrodriguezparodi/">
-                                        <FontAwesomeIcon icon={faLinkedin} style={{color:'#0e76a8'}}/>
+                                        <FontAwesomeIcon icon={faLinkedin} style={{color:'rgb(70 172 222)'}}/>
                                     </a>
                                 </div>
                         </div>

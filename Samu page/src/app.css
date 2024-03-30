@@ -13,9 +13,10 @@ section{
 
 
 .app-back{
-    background-image: linear-gradient(#6b0d6ea0 20%, #000 ,#6b0d6ea0 ); 
+    background-color: #ADD8E6; 
     min-height: 107vh;
 }
+
 
 .componente-container {
     margin-bottom: 20px; 
@@ -46,7 +47,8 @@ section{
     flex-direction: row-reverse;
     flex-wrap: wrap;
     gap: 34px  10px;
-    width: 865px;
+    max-width: 865px;
+    width: 100%;
 }
 
 .next-port {
@@ -80,4 +82,23 @@ section{
     transform: translateX(5px);
   }
   
+  @media only screen and (max-width: 768px) {
+    section{
+
+    }
+    .contenedor-bloq {
+      flex-direction: column;
+      gap: 10px;
+    }
   
+    .title-port {
+      right: 50%;
+      font-size: 30px;
+    }
+  
+    .img-fleshita {
+      top: 140px;
+      left: 50%;
+    }
+    
+  } 

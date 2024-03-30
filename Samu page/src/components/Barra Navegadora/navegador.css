@@ -69,5 +69,30 @@ font-style: normal;
     opacity: 1;
   }
 
+  @media only screen and (max-width:  768px) {
+    .name{
+      font-size: 300%;
+      margin-left: -95px;
+      top: -47px;
+      position: relative;
+      }
+      .b-nav-header{
+        align-items: center;
+        right: -57px;
+        top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+      }
+      .b_elements{
+        top: 10px;
+        position: relative;
+        left: -30px;
+        gap: 25px;
+        display: flex;
+      }
 
-
+      .bot-nav-li{
+    font-size: 19px;
+    padding: 10px 15px;      
+  }
+    }
