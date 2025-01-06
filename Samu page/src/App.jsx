@@ -1,4 +1,3 @@
-import React from "react";
 import { BarraNavegadora } from "./components/Barra Navegadora/Navegador";
 import "./app.css";
 import { TarjetaDePresentacion } from "./components/Tarjeta de Presentacion/Presentacion";

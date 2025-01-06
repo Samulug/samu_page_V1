@@ -1,11 +1,10 @@
-import React from 'react';
 import { useState } from 'react';
 import './email-imput.css';
 
 
 export function EmailImput() {
 
-    const emailValue = "SamuelRodriguez-dev@gmail.com"
+    const emailValue = "samuelrodriguez.devv@gmail.com"
     const [tooltipText, setTooltipText] = useState("Copiar en el Portapapeles?");
 
 

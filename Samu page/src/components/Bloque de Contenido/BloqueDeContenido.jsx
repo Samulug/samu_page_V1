@@ -7,14 +7,8 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
-export function BloqueDeContenido({
-  imageUrl,
-  title,
-  text,
-  redirec,
-  tecnologias,
-}) {
-
+export function BloqueDeContenido({imageUrl,title,text,redirec,tecnologias}) 
+{
   const iconos = {
     HTML: faHtml5,
     CSS: faCss3Alt,
